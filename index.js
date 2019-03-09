@@ -27,7 +27,6 @@ const originNode = search(originTree, node => {
     return node
   }
 })
-
 if (!originNode) {
   throw new Error('Can not find an origin node.')
 }

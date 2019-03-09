@@ -47,9 +47,9 @@ function match(originNode, sampleTree) {
 
     let score = 0
 
-    originAttrs.forEach(attr => {
-      if (node.attributes[attr.key] === attr.value) {
-        score += (attr.key === 'id' ? 5 : 1)
+    originAttrs.forEach(originAttr => {
+      if (node.attributes[originAttr.key] === originAttr.value) {
+        score += (originAttr.key === 'id' ? 5 : 1)
       }
     })
 
