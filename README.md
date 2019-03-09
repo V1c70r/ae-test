@@ -2,12 +2,12 @@
 
 ## Requirements
 
-* node.js - v10.9.0
+* node.js >= 10
 
 ## Installation
 
 ```
-node install
+npm install
 ```
 
 ## Usage
