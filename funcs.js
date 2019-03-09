@@ -5,7 +5,7 @@
  * @param {Object} tree Parsed xml-js tree.
  * @param {[string, number][]} [path] Root path.
  * @param {function(node, path)} visit Return object if an element is found. This will stop searching.
- * @returns {Object|undefined}
+ * @returns {Object|undefined} A visit function result.
  */
 function search(tree, path, visit) {
   if (typeof path === 'function') {
@@ -33,7 +33,7 @@ function search(tree, path, visit) {
 }
 
 /**
- * Find matches in sampleTree with original node.
+ * Find matches in a sample tree with original node.
  * @param {Object} originNode Element in xml-js format.
  * @param {Object} sampleTree Parsed xml-js tree.
  * @returns {{node: Object, path: [string, number][], score: number}[]} The result will be sorted by score DESC.
