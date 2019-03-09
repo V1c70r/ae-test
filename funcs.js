@@ -63,7 +63,7 @@ function match(originNode, sampleTree) {
 
 /**
  * Convert path in array format to string format.
- * @param {[string, number]} path e.g. [['html', 1], ['body', 1], ['div', 3]]
+ * @param {[string, number][]} path e.g. [['html', 1], ['body', 1], ['div', 3]]
  * @returns {string} e.g. /html/body/div[3]
  */
 function pathToString(path) {
