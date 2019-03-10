@@ -2,7 +2,7 @@
   "name": "ae-test",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "lib/cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/V1c70r/ae-test#readme",
   "dependencies": {
-    "xml-js": "^1.6.11"
+    "parse5": "^5.1.0"
   }
 }

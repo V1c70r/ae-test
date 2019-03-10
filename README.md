@@ -13,5 +13,5 @@ npm install
 ## Usage
 
 ```
-node index.js <originFilePath> <sampleFilePath> [originElementId]
+node lib/cli.js <originFilePath> <sampleFilePath> [originNodeId]
 ```
